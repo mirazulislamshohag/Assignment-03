@@ -1,8 +1,8 @@
-package problem01;
+package problem02;
 
 import java.util.Scanner;
 
-public class Problem01 {
+public class Problem02 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -12,9 +12,9 @@ public class Problem01 {
         for (i = 0; i < a.length; i++) {
             a[i] = input.nextInt();
         }
-        for (i = 0; i < a.length; i++) {
+        for (i = a.length - 1; i >= 0; i--) {
             System.out.print(a[i] + " ");
         }
-        System.out.println("");
+        System.out.println();
     }
 }

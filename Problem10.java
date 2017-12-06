@@ -1,8 +1,8 @@
-package problem01;
+package problem10;
 
 import java.util.Scanner;
 
-public class Problem01 {
+public class Problem10 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -15,6 +15,14 @@ public class Problem01 {
         for (i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
+        
         System.out.println("");
+        
+        for (i = a.length; i > 0; i--) {
+            System.out.print(a[i-1] + " ");
+        }
+        
+        System.out.println("");
+        
     }
 }

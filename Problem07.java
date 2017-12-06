@@ -1,8 +1,8 @@
-package problem01;
+package problem07;
 
 import java.util.Scanner;
 
-public class Problem01 {
+public class Problem07 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -13,7 +13,9 @@ public class Problem01 {
             a[i] = input.nextInt();
         }
         for (i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
+            if (a[i] > 10) {
+                System.out.print(a[i] + " ");
+            }
         }
         System.out.println("");
     }
